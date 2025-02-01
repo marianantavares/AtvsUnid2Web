@@ -1,0 +1,45 @@
+# Ignorar a pasta vendor (dependências do Composer)
+/vendor/
+
+# Ignorar o arquivo de ambiente (contém credenciais sensíveis)
+/.env
+
+# Ignorar a pasta de armazenamento de logs e cache
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Ignorar a pasta de compilação do frontend (se estiver usando Mix)
+/public/css/
+/public/js/
+/public/mix-manifest.json
+
+# Ignorar a pasta de dependências do Node.js
+/node_modules/
+
+# Ignorar arquivos de configuração local (se houver)
+/.idea/
+/.vscode/
+
+# Ignorar arquivos de debug
+/.phpunit.result.cache
+/.php_cs.cache
+
+# Ignorar arquivos gerados pelo Composer
+/composer.lock
+
+# Ignorar backups e arquivos temporários
+*.log
+*.sql
+*.zip
+*.tar.gz
+*.bak
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do Laravel Sail (se usado)
+docker-compose.override.yml
